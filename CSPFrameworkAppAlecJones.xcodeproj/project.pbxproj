@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89105D231FA25D7600651100 /* Creatvivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89105D221FA25D7600651100 /* Creatvivity.swift */; };
+		8977169D1FB3974F0077F24F /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977169C1FB3974F0077F24F /* AlgorithmViewController.swift */; };
 		89B123FB1FA2569A00C355E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B123FA1FA2569A00C355E1 /* AppDelegate.swift */; };
 		89B123FD1FA2569A00C355E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B123FC1FA2569A00C355E1 /* ViewController.swift */; };
 		89B124001FA2569A00C355E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B123FE1FA2569A00C355E1 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89105D221FA25D7600651100 /* Creatvivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatvivity.swift; sourceTree = "<group>"; };
+		8977169C1FB3974F0077F24F /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 		89B123F71FA2569A00C355E1 /* CSPFrameworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSPFrameworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B123FA1FA2569A00C355E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B123FC1FA2569A00C355E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 			children = (
 				89B123FC1FA2569A00C355E1 /* ViewController.swift */,
 				89B123FA1FA2569A00C355E1 /* AppDelegate.swift */,
+				89105D221FA25D7600651100 /* Creatvivity.swift */,
+				8977169C1FB3974F0077F24F /* AlgorithmViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89B123F21FA2569A00C355E1 /* Build configuration list for PBXProject "CSPFrameworkApp" */;
+			buildConfigurationList = 89B123F21FA2569A00C355E1 /* Build configuration list for PBXProject "CSPFrameworkAppAlecJones" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,6 +176,8 @@
 			files = (
 				89B123FD1FA2569A00C355E1 /* ViewController.swift in Sources */,
 				89B123FB1FA2569A00C355E1 /* AppDelegate.swift in Sources */,
+				8977169D1FB3974F0077F24F /* AlgorithmViewController.swift in Sources */,
+				89105D231FA25D7600651100 /* Creatvivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89B123F21FA2569A00C355E1 /* Build configuration list for PBXProject "CSPFrameworkApp" */ = {
+		89B123F21FA2569A00C355E1 /* Build configuration list for PBXProject "CSPFrameworkAppAlecJones" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89B124071FA2569A00C355E1 /* Debug */,
