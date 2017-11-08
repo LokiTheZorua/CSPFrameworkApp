@@ -41,16 +41,16 @@
             </objects>
             <point key="canvasLocation" x="-110" y="99"/>
         </scene>
-        <!--View Controller-->
+        <!--Algorithm View Controller-->
         <scene sceneID="4dU-di-hyZ">
             <objects>
-                <viewController id="aOT-TV-uw7" sceneMemberID="viewController">
+                <viewController id="aOT-TV-uw7" customClass="AlgorithmViewController" customModule="CSPFrameworkApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iv2-0k-AbY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4Q-wj-dzx">
-                                <rect key="frame" x="29" y="77" width="317" height="239"/>
+                                <rect key="frame" x="29" y="202" width="317" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Algorithm">
@@ -61,14 +61,24 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="javaSample" translatesAutoresizingMaskIntoConstraints="NO" id="AEu-6a-7k6">
+                                <rect key="frame" x="34" y="463" width="307" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="kz4-GT-SBy"/>
                     </view>
+                    <connections>
+                        <outlet property="algorithmText" destination="E4Q-wj-dzx" id="uLY-Xf-JLU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7D-oR-MaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653.60000000000002" y="98.50074962518741"/>
+            <point key="canvasLocation" x="688.79999999999995" y="98.50074962518741"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="javaSample" width="563" height="377"/>
+    </resources>
 </document>
