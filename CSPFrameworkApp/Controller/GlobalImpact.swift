@@ -9,8 +9,16 @@
 import UIKit
 
 class GlobalImpact: UIViewController {
-
+    
+    @IBOutlet weak var wolfImage: UIImageView!
+    @IBOutlet weak var planImage: UIImageView!
+    @IBOutlet weak var appPlan: UILabel!
+    @IBOutlet weak var collectedData: UILabel!
+    @IBOutlet weak var whyNeeded: UILabel!
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
