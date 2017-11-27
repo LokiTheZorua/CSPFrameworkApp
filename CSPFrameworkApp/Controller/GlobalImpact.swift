@@ -26,9 +26,9 @@ class GlobalImpact: UIViewController {
     {
         planImage.image = UIImage(named : "projectImage")
     }
-        private func addText() Void -> Void
+        private func addText() -> Void
     {
-        self.collctedData.text = "This App will gather data about the size of the person's carbon foodprint and will tell them how well they did"
+        self.collectedData.text = "This App will gather data about the size of the person's carbon foodprint and will tell them how well they did"
         self.whyNeeded.text = "This is needed because of how much it effects the envoirment, it also is the cause of Utah's yearly inversion"
     }
     

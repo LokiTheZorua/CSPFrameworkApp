@@ -41,7 +41,7 @@ public class AlgorithmViewController: UIViewController {
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let pargraphStyle = createParagraphStyle()
             
-            attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : paragraphStyle], range: NSMakeRange(0, attributedStringStep.length))
+            attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : pargraphStyle], range: NSMakeRange(0, attributedStringStep.length))
             
             fullAttributedString.append(attributedStringStep)
         }
