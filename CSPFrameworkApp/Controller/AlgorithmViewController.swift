@@ -39,14 +39,14 @@ public class AlgorithmViewController: UIViewController {
             let bullet: String = ""
             let formattedStep: String = "\n\(bullet) \(step)"
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
-            let pargraphStyle = createParagraphStyle()
+            let paragraphStyle = createParagraphStyle()
             
-            attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : pargraphStyle], range: NSMakeRange(0, attributedStringStep.length))
+            attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : paragraphStyle], range: NSMakeRange(0, attributedStringStep.length))
             
             fullAttributedString.append(attributedStringStep)
         }
         algorithmText.attributedText = fullAttributedString
-        0
+        
     }
     private func createParagraphStyle() -> NSParagraphStyle
     {
