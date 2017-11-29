@@ -19,6 +19,7 @@
 		89B124021FA2569A00C355E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B124011FA2569A00C355E1 /* Assets.xcassets */; };
 		89B124051FA2569A00C355E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B124031FA2569A00C355E1 /* LaunchScreen.storyboard */; };
 		89DC6C1B1FCF3695009AC9DA /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */; };
+		89DC6C1D1FCF39E8009AC9DA /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		89B124041FA2569A00C355E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B124061FA2569A00C355E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				890CEB7D1FB6468200189171 /* GlobalImpact.swift */,
 				89158A391FCC98B100AD7E5C /* AbstractionViewController.swift */,
 				89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */,
+				89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				89B123FB1FA2569A00C355E1 /* AppDelegate.swift in Sources */,
 				8977169D1FB3974F0077F24F /* AlgorithmViewController.swift in Sources */,
 				89920C0C1FC360B000CC2623 /* HeldObjects.swift in Sources */,
+				89DC6C1D1FCF39E8009AC9DA /* InternetDetailViewController.swift in Sources */,
 				89105D231FA25D7600651100 /* Creatvivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
