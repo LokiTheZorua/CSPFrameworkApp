@@ -187,20 +187,42 @@
             </objects>
             <point key="canvasLocation" x="-751.20000000000005" y="1819.3403298350827"/>
         </scene>
-        <!--View Controller-->
+        <!--Internet Detail View Controller-->
         <scene sceneID="pn4-qG-0mR">
             <objects>
-                <viewController id="5uS-cu-AKw" sceneMemberID="viewController">
+                <viewController id="5uS-cu-AKw" customClass="InternetDetailViewController" customModule="CSPFrameworkApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h3j-HU-cET">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76h-oS-TUK">
+                                <rect key="frame" x="20" y="214" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nXu-We-1St">
+                                <rect key="frame" x="28" y="396" width="326" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Amw-OI-vtV"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="76h-oS-TUK" id="slb-Wt-2KI"/>
+                        <outlet property="webViewer" destination="nXu-We-1St" id="YQ9-Mj-YJi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ES-mD-rFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-625" y="3268"/>
+            <point key="canvasLocation" x="-626.39999999999998" y="3267.6161919040483"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="gtI-Nr-3Xe">
