@@ -222,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ES-mD-rFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-626.39999999999998" y="3267.6161919040483"/>
+            <point key="canvasLocation" x="-626" y="3358"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="gtI-Nr-3Xe">
@@ -240,6 +240,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="5uS-cu-AKw" kind="showDetail" id="db8-ID-bvc"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -445,4 +448,7 @@
         <image name="Image" width="259" height="194"/>
         <image name="javaSample" width="563" height="377"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="db8-ID-bvc"/>
+    </inferredMetricsTieBreakers>
 </document>

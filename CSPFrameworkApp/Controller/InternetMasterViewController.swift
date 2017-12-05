@@ -22,12 +22,28 @@ class InternetMasterViewController: UITableViewController
             ]
     }()
     
+    private lazy var addresses : [String] = []
+    
     private var detailViewController : InternetDetailViewController?
     
     private func setup() -> Void
     {
+        addresses = [
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com"
+        ]
         
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as? InternetDetailViewController
+        }
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,21 +72,36 @@ class InternetMasterViewController: UITableViewController
         
         return cell
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override public func prepare(for seque: UIStoryboardSegue, sender: Any?)
+    {
+        if seque.identifier! == "showDetail"
+        {
+            
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                
+                if indexPath.row == 0
+                {
+                    pageText = "All the definitions you wrote............"
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
+                
+                let controller = seque.destination as!
+                InternetDetailViewController
+                
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+            
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
