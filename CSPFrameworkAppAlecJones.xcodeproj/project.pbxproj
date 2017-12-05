@@ -10,6 +10,7 @@
 		890CEB7E1FB6468200189171 /* GlobalImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890CEB7D1FB6468200189171 /* GlobalImpact.swift */; };
 		89105D231FA25D7600651100 /* Creatvivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89105D221FA25D7600651100 /* Creatvivity.swift */; };
 		89158A3A1FCC98B100AD7E5C /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89158A391FCC98B100AD7E5C /* AbstractionViewController.swift */; };
+		893D6F151FD72A670093498B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D6F141FD72A670093498B /* DrawingView.swift */; };
 		8977169D1FB3974F0077F24F /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977169C1FB3974F0077F24F /* AlgorithmViewController.swift */; };
 		89920C0A1FC35FD700CC2623 /* Holdable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89920C091FC35FD700CC2623 /* Holdable.swift */; };
 		89920C0C1FC360B000CC2623 /* HeldObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89920C0B1FC360B000CC2623 /* HeldObjects.swift */; };
@@ -27,6 +28,7 @@
 		890CEB7D1FB6468200189171 /* GlobalImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpact.swift; sourceTree = "<group>"; };
 		89105D221FA25D7600651100 /* Creatvivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatvivity.swift; sourceTree = "<group>"; };
 		89158A391FCC98B100AD7E5C /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		893D6F141FD72A670093498B /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		8977169C1FB3974F0077F24F /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 		89920C091FC35FD700CC2623 /* Holdable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holdable.swift; sourceTree = "<group>"; };
 		89920C0B1FC360B000CC2623 /* HeldObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeldObjects.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				89B124031FA2569A00C355E1 /* LaunchScreen.storyboard */,
 				89B123FE1FA2569A00C355E1 /* Main.storyboard */,
+				893D6F141FD72A670093498B /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				89158A3A1FCC98B100AD7E5C /* AbstractionViewController.swift in Sources */,
 				89DC6C1B1FCF3695009AC9DA /* InternetMasterViewController.swift in Sources */,
 				89B123FB1FA2569A00C355E1 /* AppDelegate.swift in Sources */,
+				893D6F151FD72A670093498B /* DrawingView.swift in Sources */,
 				8977169D1FB3974F0077F24F /* AlgorithmViewController.swift in Sources */,
 				89920C0C1FC360B000CC2623 /* HeldObjects.swift in Sources */,
 				89DC6C1D1FCF39E8009AC9DA /* InternetDetailViewController.swift in Sources */,
