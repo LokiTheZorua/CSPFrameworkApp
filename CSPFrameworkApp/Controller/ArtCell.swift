@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ArtCellCollectionViewCell: UICollectionViewCell
+class ArtCell: UICollectionViewCell
 {
 
-    @IBoutlet weak var inmageView: UIImageView
+    @IBOutlet weak var imageView: UIImageView!
     
-    @IBOutlet weak var imageName: UILable
+    @IBOutlet weak var imageName: UILabel!
 }
+

@@ -22,7 +22,7 @@
 		89DC6C1B1FCF3695009AC9DA /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */; };
 		89DC6C1D1FCF39E8009AC9DA /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */; };
 		89DC6C201FCF3BBC009AC9DA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC6C1F1FCF3BBC009AC9DA /* WebKit.framework */; };
-		89FEDA211FD9D36B00F41476 /* ArtCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FEDA201FD9D36B00F41476 /* ArtCellCollectionViewCell.swift */; };
+		89FEDA211FD9D36B00F41476 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FEDA201FD9D36B00F41476 /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,7 @@
 		89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		89DC6C1F1FCF3BBC009AC9DA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		89FEDA201FD9D36B00F41476 /* ArtCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		89FEDA201FD9D36B00F41476 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 				89158A391FCC98B100AD7E5C /* AbstractionViewController.swift */,
 				89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */,
 				89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */,
-				89FEDA201FD9D36B00F41476 /* ArtCellCollectionViewCell.swift */,
+				89FEDA201FD9D36B00F41476 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 				890CEB7E1FB6468200189171 /* GlobalImpact.swift in Sources */,
 				89920C0A1FC35FD700CC2623 /* Holdable.swift in Sources */,
 				89158A3A1FCC98B100AD7E5C /* AbstractionViewController.swift in Sources */,
-				89FEDA211FD9D36B00F41476 /* ArtCellCollectionViewCell.swift in Sources */,
+				89FEDA211FD9D36B00F41476 /* ArtCell.swift in Sources */,
 				89DC6C1B1FCF3695009AC9DA /* InternetMasterViewController.swift in Sources */,
 				89B123FB1FA2569A00C355E1 /* AppDelegate.swift in Sources */,
 				893D6F151FD72A670093498B /* DrawingView.swift in Sources */,
