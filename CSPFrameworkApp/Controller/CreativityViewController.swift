@@ -17,10 +17,10 @@ public class CreatvityViewController : UICollectionViewController, UICollectionV
     private lazy var artSelection : [UIImage?] =
     {
         return [
-            UIImage(named : ""),
-            UIImage(named : ""),
-            UIImage(named : ""),
-            UIImage(named : "")
+            UIImage(named : "javaExample"),
+            UIImage(named : "personImage"),
+            UIImage(named : "Image"),
+            UIImage(named : "blockcodeExample")
         ]
     }()
     
