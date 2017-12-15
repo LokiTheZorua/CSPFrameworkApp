@@ -33,6 +33,8 @@
 		89CFCFFC1FE1AFF1006A2921 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFCFF71FE1AFF1006A2921 /* Invader.swift */; };
 		89CFCFFD1FE1AFF1006A2921 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFCFF81FE1AFF1006A2921 /* Player.swift */; };
 		89CFCFFE1FE1AFF1006A2921 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFCFF91FE1AFF1006A2921 /* Projectile.swift */; };
+		89CFD0001FE1B1E3006A2921 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFCFFF1FE1B1E3006A2921 /* ProgrammingViewController.swift */; };
+		89CFD0021FE1B4FC006A2921 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFD0011FE1B4FC006A2921 /* Utilities.swift */; };
 		89DC6C1B1FCF3695009AC9DA /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */; };
 		89DC6C1D1FCF39E8009AC9DA /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */; };
 		89DC6C201FCF3BBC009AC9DA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC6C1F1FCF3BBC009AC9DA /* WebKit.framework */; };
@@ -68,6 +70,8 @@
 		89CFCFF71FE1AFF1006A2921 /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
 		89CFCFF81FE1AFF1006A2921 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		89CFCFF91FE1AFF1006A2921 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		89CFCFFF1FE1B1E3006A2921 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		89CFD0011FE1B4FC006A2921 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		89DC6C1F1FCF3BBC009AC9DA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -127,6 +131,7 @@
 				89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */,
 				89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */,
 				89FEDA201FD9D36B00F41476 /* ArtCell.swift */,
+				89CFCFFF1FE1B1E3006A2921 /* ProgrammingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 		89B1240F1FA2571E00C355E1 /* Resoruces */ = {
 			isa = PBXGroup;
 			children = (
+				89CFD0011FE1B4FC006A2921 /* Utilities.swift */,
 				89CFCFF21FE1AE44006A2921 /* sounds */,
 				89B124061FA2569A00C355E1 /* Info.plist */,
 				89B124011FA2569A00C355E1 /* Assets.xcassets */,
@@ -276,6 +282,7 @@
 			files = (
 				89CFCFFE1FE1AFF1006A2921 /* Projectile.swift in Sources */,
 				89CFCFFA1FE1AFF1006A2921 /* PlayerLaser.swift in Sources */,
+				89CFD0021FE1B4FC006A2921 /* Utilities.swift in Sources */,
 				89CFCFFC1FE1AFF1006A2921 /* Invader.swift in Sources */,
 				89B123FD1FA2569A00C355E1 /* ViewController.swift in Sources */,
 				89CFCFE51FE1AB6A006A2921 /* LevelCompleteScene.swift in Sources */,
@@ -289,6 +296,7 @@
 				89CFCFE31FE1AB6A006A2921 /* StartScene.swift in Sources */,
 				8977169D1FB3974F0077F24F /* AlgorithmViewController.swift in Sources */,
 				89CFCFFB1FE1AFF1006A2921 /* InvaderLaser.swift in Sources */,
+				89CFD0001FE1B1E3006A2921 /* ProgrammingViewController.swift in Sources */,
 				89920C0C1FC360B000CC2623 /* HeldObjects.swift in Sources */,
 				89DC6C1D1FCF39E8009AC9DA /* InternetDetailViewController.swift in Sources */,
 				89CFCFFD1FE1AFF1006A2921 /* Player.swift in Sources */,
@@ -431,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = "$(SRCROOT)/CSPFrameworkApp/Resoruces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jones--Alec.CSPFrameworkApp";
@@ -445,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = "$(SRCROOT)/CSPFrameworkApp/Resoruces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jones--Alec.CSPFrameworkApp";
