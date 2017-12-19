@@ -35,6 +35,7 @@
 		89CFCFFE1FE1AFF1006A2921 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFCFF91FE1AFF1006A2921 /* Projectile.swift */; };
 		89CFD0001FE1B1E3006A2921 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFCFFF1FE1B1E3006A2921 /* ProgrammingViewController.swift */; };
 		89CFD0021FE1B4FC006A2921 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFD0011FE1B4FC006A2921 /* Utilities.swift */; };
+		89D1206C1FE9A58A00EB48B4 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1206B1FE9A58A00EB48B4 /* DeathScene.swift */; };
 		89DC6C1B1FCF3695009AC9DA /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */; };
 		89DC6C1D1FCF39E8009AC9DA /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */; };
 		89DC6C201FCF3BBC009AC9DA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DC6C1F1FCF3BBC009AC9DA /* WebKit.framework */; };
@@ -72,6 +73,7 @@
 		89CFCFF91FE1AFF1006A2921 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
 		89CFCFFF1FE1B1E3006A2921 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		89CFD0011FE1B4FC006A2921 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		89D1206B1FE9A58A00EB48B4 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		89DC6C1A1FCF3695009AC9DA /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		89DC6C1C1FCF39E8009AC9DA /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		89DC6C1F1FCF3BBC009AC9DA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -178,6 +180,7 @@
 				89CFCFE11FE1AB6A006A2921 /* GameScene.swift */,
 				89CFCFE21FE1AB6A006A2921 /* LevelCompleteScene.swift */,
 				89CFCFE01FE1AB6A006A2921 /* StartScene.swift */,
+				89D1206B1FE9A58A00EB48B4 /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				89920C0A1FC35FD700CC2623 /* Holdable.swift in Sources */,
 				89158A3A1FCC98B100AD7E5C /* AbstractionViewController.swift in Sources */,
 				89FEDA211FD9D36B00F41476 /* ArtCell.swift in Sources */,
+				89D1206C1FE9A58A00EB48B4 /* DeathScene.swift in Sources */,
 				89DC6C1B1FCF3695009AC9DA /* InternetMasterViewController.swift in Sources */,
 				89B123FB1FA2569A00C355E1 /* AppDelegate.swift in Sources */,
 				893D6F151FD72A670093498B /* DrawingView.swift in Sources */,
