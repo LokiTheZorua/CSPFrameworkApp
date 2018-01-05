@@ -29,12 +29,12 @@ class InternetMasterViewController: UITableViewController
     private func setup() -> Void
     {
         addresses = [
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com"
+            "https://google.com",
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "http://www.canyonsdistrict.org/",
+            "https://ctec.canyonsdistrict.org/",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html",
+            "https://twitter.com/?lang=en"
         ]
         
         if let splitView = splitViewController
